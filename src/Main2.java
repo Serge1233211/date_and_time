@@ -6,7 +6,7 @@ public class Main2 {
 
     public static void main (String[] args) {
 
-        Calendar calendar = new GregorianCalendar;
+        Calendar calendar = new GregorianCalendar();
 
         calendar.set(Calendar.YEAR, 2017) ;
 
@@ -15,7 +15,8 @@ public class Main2 {
         calendar.set (Calendar.HOUR_OF_DAY, 19);
         calendar.set(Calendar.MINUTE, 42);
         calendar.set(Calendar.SECOND, 12) ;
-        System.out.println (calendar.getTime())}
+        System.out.println (calendar.getTime());
+    }
 
 }
 
